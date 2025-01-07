@@ -14,27 +14,7 @@ const Add = ({navigation, route}) => {
         navigation.navigate("Home");
     }
 
-    // const setData = async () => {
-    //     try {
-    //         let datastr = await AsyncStorage.getItem("alphadata");
-    //         let currentData = datastr ? JSON.parse(datastr) : numbers; // Use existing data or fallback
-    //
-    //         const entry = {
-    //             name: PokName,
-    //             key: PokNum,
-    //         };
-    //         let indexNum = type === "EX Rarity" ? 0 : 1;
-    //
-    //         // Add new entry to the correct section
-    //         currentData[indexNum].data.push(entry);
-    //
-    //         // Save updated data to AsyncStorage
-    //         await AsyncStorage.setItem("alphadata", JSON.stringify(currentData));
-    //         navigation.navigate("Home");
-    //     } catch (error) {
-    //         console.error("Error adding data:", error);
-    //     }
-    // };
+
 
     return (
         <View style={{padding: 10, marginTop: 50}}>
